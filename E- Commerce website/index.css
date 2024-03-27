@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 1px 3px 3px 3px rgb(226, 226, 226);
+    background-color: #fff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;   
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 22px;
+    color:black;
+}
+
+.searchbar input {
+    width: 310px;
+    height: 15px;
+    padding: 13px;
+    border: none;
+    outline: none;
+    background-color: #e8e8e8;
+    font-size: 18px;
+}
+
+.searchbar i {
+    margin-left: -26px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.icons{
+    display: flex;
+    gap: 29px;
+}
+
+.icons i {
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(254, 165, 102);
+    margin-top: 96px;
+}
+
+.mainTEXT {
+    margin-top: 85px;
+}
+
+.mainTEXT h1 {
+    font-size: 70px;   
+}
+.mainTEXT p{
+    margin-top: 22px;
+}
+.mainTEXT button{
+   margin-top: 22px;
+   width: 140px;
+   height: 40px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   border: none; 
+}
+.mainTEXT button:hover{
+    border: 3px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+.main img{
+    width: 330px;
+}
+.head{
+    text-align: center;
+    padding: 88px; 
+}
+.mens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .womens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+.card{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.card img{
+   width: 100%; 
+   height: 300px
+}
+.card p{
+    padding: 11px;
+}
+.slides{
+  width: 1200px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.slidecard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.slidecard img{
+    width: 300px;
+    height: 300px;
+    margin-inline: 20px;
+    margin-top: 26px;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blogs .blogcard{
+  width: 300px;
+  margin-inline: 22px;
+  margin-top: 22px;
+  background-color: black;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+.blogcard p{
+    padding:9px;
+}
+.blogcard img{
+    width: 100%;
+    height: 300px;
+}
+.blogcard a{
+    padding: 6px 20px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 11px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgba(241, 162, 106);
+}
+.text p{
+    margin-top: 12px;
+}
+.cardDetail{
+    display: flex;
+    gap: 28px;
+    padding: 22px;
+}
+.cardDetail h2{
+    margin-top: 22px;
+}
+.cardDetail p{
+    margin-top: 22px;
+}
+.cardDetail button{
+    margin-top: 22px;
+    width: 120px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.cardDetail a{
+    padding: 6px 22px;
+    background-color: orangered;
+    color: white;
+    text-decoration:none;
+}
+.cardDetail img{
+    width: 400px;
+    height:400px;
+}
+#bar{
+    display: none;
+}
+@media screen and (max-width:1100px) {
+    ul {
+        display: none;
+    }
+    .searchBar{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    #bar{
+        display: block;
+        font-size: 25px;
+    }
+    .slides{
+        width: 90%;
+    }
+    .slideCard img{
+       width: 20px;
+    }
+}
+@media screen and (max-width:600px){
+   .slideCard img{
+     height: 160px;
+   }
+   .slides{
+    height: 230px;
+   }
+   .main img{
+    width: 80%;
+   }
+   .mainTEXT h1{
+    font-size: 35px;
+   }
+   .mainTEXT p{
+    font-size: 15px;
+   }
+}
+@media  screen and (max-width:950px) {
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
+@media  screen and (max-width:700px){
+    .cardDetail{
+      display: block;
+      text-align: center;  
+    }
+    .cardDetail img{
+        width: 70%;
+    }
+}
