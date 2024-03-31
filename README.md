@@ -4,7 +4,7 @@ MyNtra E-Commerce Website Project:-
 
 Overview:-
 
-Welcome to MyNtra, an e-commerce website project developed by [Your Name]. MyNtra replicates the renowned shopping experience of platforms like Myntra, providing users with a comprehensive range of products and seamless navigation.
+Welcome to MyNtra, an e-commerce website project developed by Raman kumar singh. MyNtra replicates the renowned shopping experience of platforms like Myntra, providing users with a comprehensive range of products and seamless navigation.
 
 Key Features:-
 
