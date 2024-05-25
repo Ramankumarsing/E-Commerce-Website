@@ -17,5 +17,5 @@ HTML
 CSS
 JavaScript
 
-To run MyNtra locally:-
+
 
